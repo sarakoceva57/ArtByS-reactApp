@@ -1,0 +1,129 @@
+.app__review {
+    flex-direction: column;
+}
+
+.app__review-h1 {
+    text-align: center;
+}
+
+.app__review-p {
+    margin-top: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+.app__review-cards {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.app__review-card {
+    margin: 1rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 100%;
+}
+
+.app__review-card img {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+
+.img-quote {
+    position: relative;
+}
+
+.quote {
+    background-color: #fff;
+    color: #ddba3d;
+    border-radius: 50%;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    padding: 5px;
+}
+
+.card-review {
+    box-shadow: 0 4px 6px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 1rem 2rem;
+    height: 350px;
+}
+
+.app__review-card_content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.app__review-name {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 2rem;
+    font-family: var(--font-alt);
+}
+
+.app__review-review {
+    text-align: start;
+    margin-bottom: 20px;
+    font-size: 17px;
+    margin-top: 10px;
+    color: var(--color-grey);
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .card-review {
+        width: 300px;
+    }
+
+    .app__review-cards {
+        width: 400px;
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__review-card img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+    .app__review-cards {
+        width: 300px;
+        margin: 1rem 0;
+    }
+
+    .app__review-name {
+        font-size: 15px;
+    }
+
+    .app__review-review {
+        font-size: 15px;
+    }
+
+    .card-review {
+        height: 300px;
+    }
+
+    .quote {
+        bottom: 0;
+        left: 35px;
+        font-size: 25px;
+    }
+
+
+}

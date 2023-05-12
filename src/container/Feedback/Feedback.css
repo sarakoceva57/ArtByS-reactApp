@@ -1,0 +1,118 @@
+.app__feedback {
+    padding: 2rem 4rem;
+    border: 1px solid var(--color-golden);
+    background: rgba(228, 191, 56, 0.5);
+
+}
+
+.app__feedback-heading {
+    text-align: center;
+}
+
+.app__feedback-input {
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.feedback_name {
+    width: 300px;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-white);
+}
+
+.feedback_email {
+    margin-top: 1rem;
+    width: 300px;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-white);
+}
+
+.feedback {
+    margin-top: 1rem;
+    width: 300px;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-white);
+}
+
+.app__feedback-name input {
+    width: 620px;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-white);
+    margin-top: 2px;
+}
+
+
+.app__feedback-input button {
+    margin-top: 1rem;
+    margin-left: -3rem;
+    width: max-content;
+}
+
+.headtext__cormorant-white {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-size: 64px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__feedback-input input {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .app__feedback-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app__feedback-input input {
+        margin: 0 0 2rem 0;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__feedback {
+        padding: 2rem 0;
+        border: none;
+    }
+
+    .feedback {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__feedback-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
