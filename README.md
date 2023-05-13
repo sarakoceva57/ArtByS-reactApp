@@ -8,7 +8,7 @@ is a landing page app designed to help artist and crafters keep track of their c
  
  • React
 
-## 📸 ScreenShots
+# 📸 ScreenShots
 ![scr1](https://github.com/sarakoceva57/ArtByS-reactApp/assets/63291849/0c545b20-e3f0-405b-85a3-76fad7faf19a)
 ![scr2](https://github.com/sarakoceva57/ArtByS-reactApp/assets/63291849/27979bc4-8de4-48fa-a398-2749edff02f5)
 ![scr3](https://github.com/sarakoceva57/ArtByS-reactApp/assets/63291849/5ffb86f7-1228-4d31-9973-57efd9f3a144)
