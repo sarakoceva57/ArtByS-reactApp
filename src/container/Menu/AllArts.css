@@ -81,10 +81,40 @@
     padding: 5px 3px;
 }
 
+@media screen and (min-width: 2000px) {
+    .app__allArts {
+        min-width: 1000px;
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .app__allArts {
+        padding: 4rem 0 4rem 4rem;
+    }
+    
+    
+
+    .app__arts-images_card {
+       
+        min-width: 220px;
+        height: 320px;
+        margin-right: 2rem;
+    }
+
+    
+
+}
 
 @media screen and (max-width:1150px) {
     .app__allArts {
+        min-width: 100px;
         padding: 4rem 0 4rem 4rem;
+    }
+    
+    .app__arts-images_card{
+        min-width: 240px;
+        height: 320px;
     }
 }
 

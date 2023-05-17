@@ -18,7 +18,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .app__team-card {
@@ -64,6 +65,21 @@
 }
 
 
+@media screen and (max-width:1400px) {
+    .app__team-card  {
+        display: flex;
+        min-width: 150px;
+        height: 80%;
+        margin: 1rem;
+        justify-content: space-around;
+      
+    }
+    
+    .app-team-cards{
+
+    }
+
+}
 
 @media screen and (max-width: 650px) {
     .app__team-card img {
@@ -75,6 +91,7 @@
     .app__team-cards {
         width: 300px;
         margin: 1rem 0;
+        flex-wrap: wrap;
     }
 
 
